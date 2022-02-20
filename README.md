@@ -93,11 +93,9 @@ ovo
 
 ### 2) Requisitos
 
-Para executar o projeto será necessário instalar os seguintes programas:
+Para executar o projeto será necessário instalar os seguintes softwares:
 
 * Java versão 8 ou superior.
-
-* JUnit4 ou superior.
 
 * Pode ser utilizada a IDE da sua preferência ou pode ser executado pelo terminal
 
@@ -110,7 +108,7 @@ Para executar o projeto será necessário instalar os seguintes programas:
 * Efetue um clone deste repositório;
 * Abra a pasta salva no terminal;
 
-#### Projeto
+#### Classes de Execução e Testes
 
 * Digite o comando: 
 
@@ -122,26 +120,6 @@ javac <ClasseASerExecutada>.java;
 
 ```
 java <ClasseASerExecutada>
-```
-
-#### Testes
-
-- Digite o comando: 
-
-```
-javac <ClasseASerTestada>.java
-```
-
-- Digite o comando: 
-
-```
-javac -cp junit-4.13.jar;. <ClasseASerTestada>.java
-```
-
-- Digite o comando: 
-
-```
-java -cp junit-4.13.jar;hamcrest-core-1.3.jar;. org.junit.runner.JUnitCore <ClasseASerTestada>
 ```
 
 
