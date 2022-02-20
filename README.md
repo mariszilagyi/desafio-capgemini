@@ -191,39 +191,3 @@ A classe tem por objetivo atender a Questão 3 do Desafio de Programação Acade
 | public      | static void          | main()                                 | Executa o método contaParesDeAnagramas()                     |
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> github/master
