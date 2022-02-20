@@ -1,4 +1,12 @@
-# DESAFIO DE PROGRAMAÇÃO CAPGEMINI 2022
+#                DESAFIO DE PROGRAMAÇÃO CAPGEMINI 2022
+
+
+
+
+
+![](C:\Workspace\desafio-capgemini\68747470733a2f2f63617067656d696e692e70726f7761792e636f6d2e62722f6173736574732f696d672f6c6f676f2d63617067656d696e692e706e67.png)
+
+
 
 # desafio-capgemine
 
@@ -6,7 +14,7 @@
 
 ### Autora: Mariana Szilagyi Santos
 
-Projeto desenvolvido em Java para a o processo seletivo da Academia Capgemini de 2022.
+Projeto desenvolvido em Java para o processo seletivo da Academia Capgemini de 2022.
 
 
 
@@ -97,7 +105,7 @@ Para executar o projeto será necessário instalar os seguintes softwares:
 
 * Java versão 8 ou superior.
 
-* Pode ser utilizada a IDE da sua preferência ou pode ser executado pelo terminal
+* IDE da sua preferência é opcional,  pode ser executado pelo terminal.
 
   
 
