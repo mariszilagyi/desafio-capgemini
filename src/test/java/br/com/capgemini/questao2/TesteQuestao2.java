@@ -14,24 +14,24 @@ public class TesteQuestao2 {
         textoTestado = "abcdeF";
         teste = Questao2.contaCaracteresParaAdicionar(textoTestado);
         testePassed = teste == resultadoReal ? "PASSED" : "FAIL";
-        System.out.println("\nTeste de senha \"abcdef\" deve retornar " + resultadoReal + ": " + teste + " " + testePassed);
+        System.out.println("\nTeste de senha \"abcdeF\" deve retornar " + resultadoReal + ": " + teste + " " + testePassed);
 
         resultadoReal = 3;
         textoTestado = "Ya3";
         teste = Questao2.contaCaracteresParaAdicionar(textoTestado);
         testePassed = teste == resultadoReal ? "PASSED" : "FAIL";
-        System.out.println("\nTeste de senha \"abcdef\" deve retornar " + resultadoReal + ": " + teste + " " + testePassed);
+        System.out.println("\nTeste de senha \"Ya3\" deve retornar " + resultadoReal + ": " + teste + " " + testePassed);
 
         resultadoReal = 1;
         textoTestado = "Ya3333";
         teste = Questao2.contaCaracteresParaAdicionar(textoTestado);
         testePassed = teste == resultadoReal ? "PASSED" : "FAIL";
-        System.out.println("\nTeste de senha \"abcdef\" deve retornar " + resultadoReal + ": " + teste + " " + testePassed);
+        System.out.println("\nTeste de senha \"Ya3333\" deve retornar " + resultadoReal + ": " + teste + " " + testePassed);
 
         resultadoReal = 0;
         textoTestado = "Ya3333!";
         teste = Questao2.contaCaracteresParaAdicionar(textoTestado);
         testePassed = teste == resultadoReal ? "PASSED" : "FAIL";
-        System.out.println("\nTeste de senha \"abcdef\" deve retornar " + resultadoReal + ": " + teste + " " + testePassed);
+        System.out.println("\nTeste de senha \"Ya3333!\" deve retornar " + resultadoReal + ": " + teste + " " + testePassed);
     }
 }

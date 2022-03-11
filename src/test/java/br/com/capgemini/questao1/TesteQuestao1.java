@@ -28,6 +28,7 @@ public class TesteQuestao1 {
         String Teste = escadaDoTeste.equals(ESCADA_VALIDADA_6) ? "PASSED" : "FAIL";
         System.out.println("\nTeste de escada com " + numDegraus + " degraus: " + Teste);
 
+
         Questao1.stdoutHistory.clear();
 
         numDegraus = 10;

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Questao1 {
+
     public static ArrayList<String> stdoutHistory = new ArrayList<>();
 
     public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class Questao1 {
                 Por favor, insira o número de degraus para a sua escada:\s
                 """);
 
-        if (args == null) {
+        if (args.length == 0) {
             degraus = scan.nextInt();
         } else {
             degraus = Integer.parseInt(String.join("", args));
@@ -30,6 +31,8 @@ public class Questao1 {
             System.out.println(escada);
             stdoutHistory.add(String.valueOf(escada));
         }
+
+
         scan.close();
     }
 }
